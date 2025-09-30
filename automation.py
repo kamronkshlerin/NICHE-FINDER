@@ -17,10 +17,12 @@ subscriber_limit = st.number_input("Max Subscribers Filter:", min_value=0, value
 max_videos = st.number_input("Max Videos per Keyword:", min_value=1, max_value=50, value=10)
 
 keywords = [
-    "ASMR Relaxation", "Sleep ASMR", "Whisper ASMR",
-    "Tapping ASMR", "Personal Attention ASMR", "ASMR Roleplay",
-    "ASMR Sounds", "ASMR Triggers", "ASMR Eating Sounds",
-    "ASMR Mouth Sounds", "ASMR Haircut Roleplay", "ASMR Sleep Aid"
+    "Historical Mysteries",
+    "Ancient Mysteries",
+    "Unsolved Historical Events",
+    "Lost Civilizations",
+    "Mystery of Ancient Egypt",
+    "Pyramids Secrets",
 ]
 
 # ----------------- Caching API Calls -----------------
